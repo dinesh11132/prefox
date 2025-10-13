@@ -719,6 +719,7 @@ i:hover {
   border: 1px solid #ccc;
   outline: none;
   font-size: medium;
+  width: fit-content;
 }
 .icons {
   display: flex;
@@ -819,22 +820,22 @@ i:hover {
   background-color: rgb(16, 16, 143);
   cursor: pointer;
 }
-header,
-main,
-.welcome,
-.services,
-.offers,
-.choose,
-.achievements,
-.about,
-.concern,
-.different,
-.question,
-.contact,
-.bottom,
-.footer {
-  overflow: hidden;
-}
+ header,
+  main,
+  .welcome,
+  .choose,
+  .services,
+  .offers,
+  .achievements,
+  .about,
+  .concern,
+  .different,
+  .question,
+  .contact,
+  .bottom,
+  .footer {
+    overflow: hidden;
+  }
 
 @media screen and (max-width: 1150px) {
   .topic {
@@ -1072,23 +1073,7 @@ main,
   .topic4 {
     width: 100%;
   }
-  header,
-  main,
-  .welcome,
-  .choose,
-  .services,
-  .offers,
-  .achievements,
-  .about,
-  .concern,
-  .different,
-  .question,
-  .contact,
-  .bottom,
-  .footer {
-    overflow: hidden;
-    
-  }
+
   .image {
     height: auto;
     width: 70%;
@@ -1114,3 +1099,24 @@ main,
     padding: 20px;
   }
 }
+
+  header,
+  main,
+  .welcome,
+  .choose,
+  .services,
+  .offers,
+  .achievements,
+  .about,
+  .concern,
+  .different,
+  .question,
+  .contact,
+  .bottom,
+  .footer {
+    overflow: hidden;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
