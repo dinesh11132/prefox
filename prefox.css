@@ -1105,6 +1105,7 @@ i:hover {
   .concern1>img{
     padding: 30px;
   }
+
 }
 
   header,
@@ -1136,4 +1137,11 @@ i:hover {
    justify-content: center;
    padding: 10px;
   }
+  
+.mail input[type="email"] {
+padding: 0;
+}
+  }
+#email{
+  display: none;
 }
