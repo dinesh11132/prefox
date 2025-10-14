@@ -1128,5 +1128,6 @@ i:hover {
    width: fit-content;
    gap: 10px;
    justify-content: center;
+   padding: 10px;
   }
 }
