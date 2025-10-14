@@ -820,20 +820,9 @@ i:hover {
   background-color: rgb(16, 16, 143);
   cursor: pointer;
 }
- header,
-  main,
-  .welcome,
-  .choose,
-  .services,
-  .offers,
-  .achievements,
-  .about,
-  .concern,
-  .different,
-  .question,
-  .contact,
-  .bottom,
-  .footer {
+
+  .choose
+ {
     overflow: hidden;
   }
 
@@ -1049,6 +1038,7 @@ i:hover {
   }
   .services {
     margin: 0px;
+    overflow: hidden;
   }
 
   .part1,
@@ -1122,6 +1112,13 @@ i:hover {
   .contact,
   .bottom,
   .footer {
+    overflow: hidden;
+  }
+
+    .question1,
+  .question2 ,
+  .question3,
+  .question4 {
     overflow: hidden;
   }
 
