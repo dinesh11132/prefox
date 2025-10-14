@@ -1002,6 +1002,7 @@ i:hover {
 }
 @media screen and (max-width: 426px) {
   body {
+    overflow-x: hidden;
     margin: 30px;
   }
   .home > h1 {
@@ -1091,6 +1092,7 @@ i:hover {
 @media screen and (max-width: 376px) {
   body {
     margin: 20px;
+    overflow-x: hidden;
   }
 }
 
@@ -1098,6 +1100,10 @@ i:hover {
   body {
     margin: 5px;
     padding: 20px;
+    overflow-x: hidden;
+  }
+  .concern1>img{
+    padding: 30px;
   }
 }
 
