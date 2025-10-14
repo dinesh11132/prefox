@@ -1093,6 +1093,11 @@ i:hover {
     margin: 20px;
   }
 }
+@media screen and (max-width: 1025px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 @media screen and (max-width: 321px) {
   body {
     margin: 5px;
@@ -1120,3 +1125,12 @@ i:hover {
   body{
     overflow-x: hidden;
   }
+  @media screen and (max-width: 376px) {
+.btn {
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+   gap: 10px;
+   justify-content: center;
+  }
+}
