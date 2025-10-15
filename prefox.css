@@ -362,7 +362,7 @@ i:hover {
 }
 
 .services {
-  margin: 200px 100px 0 100px;
+ margin-top: 200px;
   overflow: hidden;
 }
 
@@ -445,6 +445,8 @@ i:hover {
 .album > img {
   height: 400px;
   width: 500px;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 .para {
@@ -809,6 +811,11 @@ i:hover {
 .copy {
   display: flex;
   justify-content: space-between;
+
+}
+.right{
+  display: flex;
+  align-items: center;
 }
 .btn > button {
   padding: 10px 20px;
@@ -839,6 +846,7 @@ i:hover {
     display: flex;
     flex-direction: column;
   }
+ 
 }
 @media screen and (max-width: 1200px) {
   .offer {
@@ -884,6 +892,7 @@ i:hover {
     display: grid;
     grid-template-columns: auto;
   }
+
 }
 @media screen and (max-width: 1024px) {
   .topics {
@@ -1000,9 +1009,11 @@ i:hover {
   .home > p {
     font-size: 15px;
   }
-  .album > img {
+  .album>img {
+ 
     height: 200px;
     width: 300px;
+ 
   }
   .para {
     width: 100%;
@@ -1125,7 +1136,7 @@ i:hover {
   body{
     overflow-x: hidden;
   }
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 450px) {
 .btn {
    display: flex;
    flex-direction: column;
@@ -1139,6 +1150,28 @@ i:hover {
 padding: 0;
 }
   }
-#email{
-  display: none;
+
+  @media screen and (max-width: 900px) {
+ .log1>i {
+  font-size: 30px;
+ }
+  .log2>i {
+  font-size: 30px;
+ }
+ .location1,.location2,.location3{
+  justify-content: flex-start;
+  align-items: start;
+  gap: 10px;
+ }
+  }
+  
+  @media screen and (max-width: 450px) {
+ .log1>i {
+  font-size: 30px;
+ }
+}
+  @media screen and (max-width: 769px) {
+ .copy {
+  gap: 10px;
+ }
 }
