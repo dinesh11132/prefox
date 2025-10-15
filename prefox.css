@@ -806,7 +806,7 @@ i:hover {
   padding-right: 30px;
 }
 .footer {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 .copy {
   display: flex;
@@ -1106,6 +1106,12 @@ i:hover {
   .concern1>img{
     padding: 30px;
   }
+  .footer {
+  margin: 10px 0;
+}
+.bottom{
+  margin: 20px 0;
+}
 
 }
 
@@ -1175,3 +1181,4 @@ padding: 0;
   gap: 10px;
  }
 }
+
