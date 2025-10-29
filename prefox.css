@@ -625,7 +625,7 @@ i:hover {
 }
 .topics {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 50px;
 }
 .topics h3{
@@ -976,6 +976,12 @@ i:hover {
   border-radius: 10px;
   padding: 20px;
   background-color: var(--primary-color);
+}
+#folder{
+  color:rgba(223, 223, 9, 0.723);
+}
+#shack{
+  color:rgb(163, 4, 163);
 }
 .contact {
   margin: 100px 0;
