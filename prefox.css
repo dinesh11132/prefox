@@ -1176,6 +1176,10 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
  {
     overflow: hidden;
   }
+ .mail{
+  display: flex;
+  gap: 10px;
+ }
 
 @media screen and (max-width: 1150px) {
   .topic {
@@ -1535,3 +1539,8 @@ padding: 0;
   width: 100%;
  }
 }
+ @media screen and (max-width: 451px) {
+#email{
+   padding: 8px 12px;
+ }
+ }
