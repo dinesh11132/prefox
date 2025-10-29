@@ -369,7 +369,7 @@ i:hover {
  border: 2px solid rgb(133, 211, 248);
 }
 .box2:hover{
- transform: scale(1.15);
+ transform: scale(1);
   background-color: rgb(133, 211, 248);
  border: 2px solid rgb(133, 211, 248);
 }
@@ -379,7 +379,7 @@ i:hover {
   transform: scale(1.15);
 }
 .box4:hover{
- transform: scale(1.15);
+ transform: scale(1);
  background-color: rgb(133, 211, 248);
  border: 2px solid rgb(133, 211, 248);
 }
@@ -1036,6 +1036,7 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
 .side1 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 25px;
   padding: 10px;
 }
@@ -1087,14 +1088,15 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
   display: grid;
   grid-template-columns: 200px 400px 200px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 20px;
   border-bottom: 2px solid;
   padding: 10px;
 }
 .location1 {
   display: flex;
-  align-items: center;
+   gap: 10px;
+  /* align-items: center; */
 }
 .email1 {
   display: flex;
@@ -1104,14 +1106,15 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
   display: grid;
   grid-template-columns: 200px 400px 200px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 20px;
   border-bottom: 2px solid;
   padding: 10px;
 }
 .location2 {
   display: flex;
-  align-items: center;
+   gap: 10px;
+  /* align-items: center; */
 }
 .email2 {
   display: flex;
@@ -1121,20 +1124,27 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
   display: grid;
   grid-template-columns: 200px 400px 200px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 20px;
 
   padding: 10px;
 }
 .location3 {
   display: flex;
-  align-items: center;
+  gap: 10px;
+  
+  /* align-items: center; */
 }
 .email3 {
   display: flex;
   gap: 10px;
 }
-
+.log1 i{
+  font-size: x-large;
+}
+.log2 i{
+  font-size: x-large;
+}
 .side2 {
   padding-right: 30px;
 }
@@ -1160,6 +1170,7 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
 background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
   cursor: pointer;
 }
+
 
   .choose
  {
