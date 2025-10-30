@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   /* --primary-color:  rgb(133, 211, 248); */
 }
@@ -1041,6 +1045,7 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
 .bottom {
   margin: 100px 0;
   overflow-x: hidden;
+  scroll-margin-top: 100px;
 }
 .side2 h3 ,h4{
   color: brown;
