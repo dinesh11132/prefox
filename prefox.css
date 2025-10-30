@@ -11,7 +11,7 @@
 
 body {
   overflow-x: hidden;
-  margin: 0 100px;
+  margin: 0 50px;
   
 }
 a:hover {
@@ -162,7 +162,7 @@ header > i {
 main {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 0;
+  margin: 70px 0;
   gap: 30px;
   justify-content: center;
   align-items: center;
@@ -180,6 +180,7 @@ p {
   justify-content: center;
   width: 100%;
   line-height: 1.8;
+  gap: 20px;
 }
 .photo {
   flex: 1;
@@ -487,6 +488,7 @@ i:hover {
 .services {
  margin-top: 200px;
   overflow: hidden;
+   scroll-margin-top: 70px;
 }
 .part h3{
   color:brown;
@@ -712,7 +714,9 @@ i:hover {
 
 .about {
   margin: 100px 0;
+  scroll-margin-top: 100px;
 }
+
 .report {
   display: flex;
   justify-content: space-between;
@@ -789,6 +793,7 @@ i:hover {
 }
 .concern > h1 {
   text-align: center;
+  margin-top: 20px;
 }
 .different {
   margin: 100px 0;
@@ -802,6 +807,15 @@ i:hover {
  transform: scale(1.15);
  background-color: rgb(133, 211, 248);
  border: 2px solid rgb(133, 211, 248);
+}
+.card1:hover #light{
+  transform: scale(1.15);
+}
+.card2:hover #award{
+  transform: scale(1.15);
+}
+.card3:hover #group{
+  transform: scale(1.15);
 }
 .card2:hover{
  transform: scale(1.15);
@@ -1091,6 +1105,7 @@ background: linear-gradient(to right, rgb(91, 91, 204), rgb(3, 3, 62));
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .icons > i:hover {
   color: #e7e7ee;
